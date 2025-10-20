@@ -1,4 +1,3 @@
-# Laboratory-Tasks
-IT Professional Elective 1 
+# Laboratory-Tasks IT Professional Elective 1 
 
-ALL EXERCISES ARE ON THE BRANCHES 
+# ALL EXERCISES ARE ON THE BRANCHES 
