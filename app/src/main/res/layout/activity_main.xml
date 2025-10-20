@@ -8,18 +8,42 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvWelcome"
+    <Button
+        android:id="@+id/btnStandard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="320dp"
-        android:text="Welcome To Android UI"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="ADD"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.5" />
 
+    <ImageButton
+        android:id="@+id/btnRing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B0B0B0"
+        android:contentDescription="Add Button"
+        android:src="@drawable/bell"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnStandard"
+        app:layout_constraintEnd_toStartOf="@id/btnToggle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <ToggleButton
+        android:id="@+id/btnToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
