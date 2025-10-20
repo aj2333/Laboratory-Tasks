@@ -12,9 +12,6 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity(){
 
-    private val country = arrayOf("Philippines", "Panama", "Japan", "Canada", "Australia", "United States")
-    private val option = arrayOf("Country", "Philippines", "Panama", "Japan", "Canada", "Australia", "United States")
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
