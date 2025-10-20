@@ -28,7 +28,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="36dp"
         android:padding="20dp"
-        android:text="Enter your fullname:"
+        android:text="Fullname:"
         android:textSize="15sp"
         android:textStyle="bold"
         android:typeface="serif"
@@ -47,58 +47,5 @@
         app:layout_constraintStart_toEndOf="@id/tvFullname"
         app:layout_constraintTop_toTopOf="@+id/tvFullname" />
 
-    <TextView
-        android:id="@+id/tvCountry"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:padding="20dp"
-        android:text="Enter your country:"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvFullname" />
-
-
-    <AutoCompleteTextView
-        android:id="@+id/actvCountry"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:hint="Country"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="8dp"
-        android:padding="5dp"
-        android:singleLine="true"
-        android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@id/tvCountry"
-        app:layout_constraintTop_toTopOf="@+id/tvCountry" />
-
-    <TextView
-        android:id="@+id/tvOptions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:padding="20dp"
-        android:text="Sample Options:"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvCountry" />
-
-    <Spinner
-        android:id="@+id/spnOptions"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".8"
-        app:layout_constraintStart_toEndOf="@id/tvOptions"
-        app:layout_constraintStart_toStartOf="@id/tvOptions"
-        app:layout_constraintTop_toTopOf="@+id/tvOptions" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
