@@ -3,11 +3,9 @@ package com.example.laboratorytasks
 import android.widget.FrameLayout
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ImageButton
 import android.widget.ImageSwitcher
 import android.widget.ImageView
 import android.widget.Toast
-import android.widget.ToggleButton
 import android.widget.ViewSwitcher
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
