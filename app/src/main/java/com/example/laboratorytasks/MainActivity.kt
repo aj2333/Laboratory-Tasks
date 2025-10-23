@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(){
         val spnMunicipality: Spinner = findViewById(R.id.spnMunicipality)
         val btnSubmit: Button = findViewById(R.id.btnSubmit)
 
-        val city = arrayOf("Select City", "Taguig City", "Muntinlupa City", "Parañque City", "Las Piñas City")
+        val city = arrayOf("Select City", "Taguig City", "Muntinlupa City", "Parañaque City", "Las Piñas City")
         val spinnerAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, city)
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spnMunicipality.adapter = spinnerAdapter
